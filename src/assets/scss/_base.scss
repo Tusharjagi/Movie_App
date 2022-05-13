@@ -1,0 +1,106 @@
+@import '../scss/variables';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
+  color: $base-font-color;
+  background: $base-bg;
+}
+
+
+a {
+  text-decoration: none !important;
+  color: $anchor-font-color !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $base-font-family;
+  margin: 0;
+  font-weight: 500;
+}
+
+
+p {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $text-color-grey;
+  font-weight: 300;
+  text-transform: none;
+}
+
+
+::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+  padding: 0;
+  margin: 1em 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 0.5rem 0;
+    text-align: left;
+  }
+}
